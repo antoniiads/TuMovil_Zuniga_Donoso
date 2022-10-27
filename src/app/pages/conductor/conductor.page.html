@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+
+
+    <ion-buttons slot="start">
+
+
+      <ion-title color="tertiary">Tu Movil</ion-title>
+    
+      <ion-button (click)="logout()" expand="full" color="tertiary" class="btn2">
+        <ion-icon slot="icon-only" name="log-out-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="fondo">
+<ion-card-header>
+
+
+<ion-card class="body">
+  <ion-card-title class="titulo">TuMovil App</ion-card-title>
+ 
+  <icon-card>
+    <img src="assets/duoc.jpg" class="ion-padding">
+  </icon-card>
+  <ion-card-content>
+    <p class="parrafo"> Si su Disponibilidad esta visible le llegaran notificaciones de solicitud de viajes</p>
+ 
+   <icon-card>
+    <img src="assets/movil.jpg" class="ion-padding">
+
+  </icon-card>
+  <ion-button (click)="Disponibilidad()" expand="block"  color="primary" >
+    Disponibilidad
+    </ion-button>
+
+
+   
+  </ion-card-content>
+</ion-card>
+</ion-card-header>
+
+</ion-content>
